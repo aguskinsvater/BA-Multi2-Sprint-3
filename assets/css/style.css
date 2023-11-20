@@ -58,8 +58,9 @@ body {
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    flex-direction: row;
     margin-top: 50px;
     margin-bottom: 50px;
     justify-content: space-between;
@@ -88,8 +89,8 @@ body {
     text-align: center;
     font-weight: bold;
     margin-bottom: 50px;
-    margin-left: 30px;
-    margin-right: 15px;
+ /*   margin-left: 30px;
+    margin-right: 15px;*/
     width: 300px;
     height: 300px;
     background-color: bisque;
