@@ -1,4 +1,6 @@
+/* Formato de catálogo de tienda adaptado a la funcionalidad de esta página web*/
 
+/* Aquí se desarrollan cada uno de los componentes del catálogo */
 const catalogo = [
     {
         id: 1,
@@ -66,6 +68,8 @@ const catalogo = [
     },
 ]
 
+/* Añadimos la función que llama los elementos antes formados y los representa en la página */
+
 let card = document.getElementById("card-ejemplo");
 
 catalogo.map((producto) => {
@@ -87,7 +91,9 @@ catalogo.map((producto) => {
 
 
 
-/*<div class="col-md-5 mb-5">
+/* Comment del viejo formato
+
+<div class="col-md-5 mb-5">
 <div class="card h-100 w-100 text-center p-4" key= ${producto.id} >
     <img src= ${producto.image} className="card-img-top" alt= ${producto.title} height="300px" />
     <div class="card-body">
